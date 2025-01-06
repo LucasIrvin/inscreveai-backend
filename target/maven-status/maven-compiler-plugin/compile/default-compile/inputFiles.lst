@@ -1,0 +1,15 @@
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\anotations\CommonApiResponses.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\config\cors\CorsConfiguration.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\config\mapper\EntityMapper.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\config\mapper\ModelMapperConfig.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\UserController.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\exceptions\InscreveAiNotFoundException.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\InscreveaiApplication.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\UserMapper.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\UserDTO.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\enums\UserProfileEnum.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\User.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\UserRepository.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\GenericService.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\UserService.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\IUserService.java
