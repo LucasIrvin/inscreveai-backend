@@ -4,6 +4,7 @@ import com.example.inscreveai.mappers.UserMapper;
 import com.example.inscreveai.models.User;
 import com.example.inscreveai.models.dto.UserDTO;
 
+import com.example.inscreveai.repository.UserRepository;
 import com.example.inscreveai.services.GenericService;
 import com.example.inscreveai.services.IUserService;
 import org.springframework.context.annotation.ComponentScan;
@@ -17,9 +18,10 @@ import java.awt.print.Pageable;
 @ComponentScan
 public class UserService extends GenericService<User, Long, UserDTO> implements IUserService {
 
-    public UserService(JpaRepository repository, UserMapper mapper) {
+    public UserService(UserRepository repository, UserMapper mapper) {
         super(repository, mapper);
     }
+
 
     @Override
     public Page<UserDTO> findAllPageAsDto(Pageable pageable) {

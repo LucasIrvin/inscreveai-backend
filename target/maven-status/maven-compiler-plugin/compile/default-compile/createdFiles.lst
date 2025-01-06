@@ -1,4 +1,8 @@
+com\example\inscreveai\models\Person.class
 com\example\inscreveai\repository\UserRepository.class
+com\example\inscreveai\controller\PersonController.class
+com\example\inscreveai\repository\PersonRepository.class
+com\example\inscreveai\services\IPersonService.class
 com\example\inscreveai\anotations\CommonApiResponses.class
 com\example\inscreveai\config\mapper\ModelMapperConfig.class
 com\example\inscreveai\models\dto\UserDTO.class
@@ -8,8 +12,11 @@ com\example\inscreveai\services\implementation\UserService.class
 com\example\inscreveai\config\cors\CorsConfiguration.class
 com\example\inscreveai\controller\UserController.class
 com\example\inscreveai\exceptions\InscreveAiNotFoundException.class
+com\example\inscreveai\mappers\PersonMapper.class
 com\example\inscreveai\models\User.class
+com\example\inscreveai\models\dto\PersonDTO.class
 com\example\inscreveai\services\GenericService.class
+com\example\inscreveai\services\implementation\PersonService.class
 com\example\inscreveai\services\IUserService.class
 com\example\inscreveai\config\mapper\EntityMapper.class
 com\example\inscreveai\InscreveaiApplication.class
