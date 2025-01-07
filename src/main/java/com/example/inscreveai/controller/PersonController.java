@@ -2,7 +2,6 @@ package com.example.inscreveai.controller;
 
 import com.example.inscreveai.anotations.CommonApiResponses;
 import com.example.inscreveai.models.dto.PersonDTO;
-import com.example.inscreveai.models.dto.UserDTO;
 import com.example.inscreveai.services.IPersonService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -53,14 +52,6 @@ public class PersonController {
     @CommonApiResponses
     public ResponseEntity<PersonDTO> update(@PathVariable Long id,
                                           @RequestBody PersonDTO personAtualizada) {
-        return ResponseEntity.ok(personService.updateDTO(id, personAtualizada));
-    }
-
-    @PutMapping("/{id}/password")
-    @CommonApiResponses
-    public ResponseEntity<Object> updatePassword(@PathVariable Long id,
-                                                 @RequestBody PersonDTO personAtualizada) {
-
         return ResponseEntity.ok(personService.updateDTO(id, personAtualizada));
     }
 

@@ -9,7 +9,6 @@ import com.example.inscreveai.services.GenericService;
 import com.example.inscreveai.services.IUserService;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.domain.Page;
-import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 
 import java.awt.print.Pageable;

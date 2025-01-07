@@ -1,5 +1,8 @@
 package com.example.inscreveai.config.mapper;
 
+import com.example.inscreveai.models.WithdrawalAccount;
+import com.example.inscreveai.models.dto.WithdrawalAccountDTO;
+
 import java.util.List;
 
 /**

@@ -9,6 +9,7 @@ import org.springframework.data.domain.Page;
 import java.awt.print.Pageable;
 import java.util.List;
 
+
 public interface IPersonService {
 
     PersonDTO updateDTO(Long id, PersonDTO personAtualizado);

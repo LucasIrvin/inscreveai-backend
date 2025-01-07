@@ -1,9 +1,8 @@
 package com.example.inscreveai.mappers;
 
+
 import com.example.inscreveai.config.mapper.EntityMapper;
-import com.example.inscreveai.models.User;
 import com.example.inscreveai.models.WithdrawalAccount;
-import com.example.inscreveai.models.dto.UserDTO;
 import com.example.inscreveai.models.dto.WithdrawalAccountDTO;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,36 +14,36 @@ import java.util.stream.Collectors;
 
 @Component
 @ComponentScan
-public class UserMapper implements EntityMapper<UserDTO, User> {
+public class WithdrawalAccountMapper implements EntityMapper<WithdrawalAccountDTO, WithdrawalAccount> {
 
-    static ModelMapper mapper;
+    private static ModelMapper mapper;
 
     @Autowired
     public void setModelMapper(ModelMapper mapper) {
-        UserMapper.mapper = mapper;
+        WithdrawalAccountMapper.mapper = mapper;
     }
 
     @Override
-    public User toEntity(UserDTO userDTO) {
-        return mapper.map(userDTO, User.class);
+    public WithdrawalAccount toEntity(WithdrawalAccountDTO withdrawalAccountDTO) {
+        return mapper.map(withdrawalAccountDTO, WithdrawalAccount.class);
     }
 
     @Override
-    public UserDTO toDto(User user) {
-        return mapper.map(user, UserDTO.class);
+    public WithdrawalAccountDTO toDto(WithdrawalAccount withdrawalAccount) {
+        return mapper.map(withdrawalAccount, WithdrawalAccountDTO.class);
     }
 
 
     @Override
-    public List<User> toEntity(List<UserDTO> userDTOList) {
-        return userDTOList.stream()
+    public List<WithdrawalAccount> toEntity(List<WithdrawalAccountDTO> withdrawalAccountDTOList) {
+        return withdrawalAccountDTOList.stream()
                 .map(this::toEntity)
                 .collect(Collectors.toList());
     }
 
     @Override
-    public List<UserDTO> toDto(List<User> userList) {
-        return userList.stream()
+    public List<WithdrawalAccountDTO> toDto(List<WithdrawalAccount> withdrawalAccountList) {
+        return withdrawalAccountList.stream()
                 .map(this::toDto)
                 .collect(Collectors.toList());
     }
