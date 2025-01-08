@@ -89,8 +89,8 @@ public class Event {
     /*@OneToOne
     private CancellationPolicy cancellationPolicy;*/
 
-    /*@OneToOne
-    private EventPage eventPage;*/
+    @OneToOne
+    private EventPage eventPage;
 
     /*@OneToOne
     private Form form;*/
