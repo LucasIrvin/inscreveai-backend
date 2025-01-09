@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @Entity
 @AllArgsConstructor
@@ -23,20 +25,21 @@ public class EventPage {
     @JoinColumn(name = "Event_ID", nullable = false)
     private Event eventId;
 
-    /*@OneToOne
-    private Cap cap;*/
+    @OneToOne
+    private Cap cap;
 
-    /*@OneToOne
-    private About about;*/
+    @OneToOne
+    private About about;
 
-    /*@OneToOne
-    private Locale locale;*/
+    @OneToOne
+    private Location location;
 
     /*@OneToMany(mappedBy = "EventPage")
     private List<Panelist> panelist;*/
 
     /*@OneToMany(mappedBy = "EventPage")
-    private List<Programing> programingList;*/
+    private List<Programming> programingList;*/
+
 
 
 }

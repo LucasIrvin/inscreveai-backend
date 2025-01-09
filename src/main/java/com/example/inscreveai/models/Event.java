@@ -86,8 +86,8 @@ public class Event {
     @JoinColumn(name = "USER_ID", nullable = false)
     private User userId;
 
-    /*@OneToOne
-    private CancellationPolicy cancellationPolicy;*/
+    @OneToOne
+    private CancellationPolicy cancellationPolicy;
 
     @OneToOne
     private EventPage eventPage;
