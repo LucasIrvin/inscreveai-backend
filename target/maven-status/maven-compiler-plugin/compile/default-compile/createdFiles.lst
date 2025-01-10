@@ -19,6 +19,7 @@ com\example\inscreveai\mappers\CancellationPolicyMapper.class
 com\example\inscreveai\mappers\PersonMapper.class
 com\example\inscreveai\services\ICapService.class
 com\example\inscreveai\models\Location.class
+com\example\inscreveai\models\Registration.class
 com\example\inscreveai\services\implementation\PersonService.class
 com\example\inscreveai\models\enums\WithdrawalModeEnum.class
 com\example\inscreveai\controller\EventController.class
@@ -40,6 +41,7 @@ com\example\inscreveai\mappers\WithdrawalAccountMapper.class
 com\example\inscreveai\services\implementation\UserService.class
 com\example\inscreveai\config\cors\CorsConfiguration.class
 com\example\inscreveai\models\User.class
+com\example\inscreveai\services\IRegistrationService.class
 com\example\inscreveai\mappers\AboutMapper.class
 com\example\inscreveai\mappers\EventMapper.class
 com\example\inscreveai\repository\EventRepository.class
@@ -50,12 +52,15 @@ com\example\inscreveai\models\dto\AboutDTO.class
 com\example\inscreveai\services\IEventService.class
 com\example\inscreveai\mappers\PanelistMapper.class
 com\example\inscreveai\services\implementation\CancellationPolicyService.class
+com\example\inscreveai\repository\RegistrationRepository.class
 com\example\inscreveai\mappers\CapMapper.class
 com\example\inscreveai\repository\CapRepository.class
 com\example\inscreveai\models\dto\LocationDTO.class
 com\example\inscreveai\repository\PanelistRepository.class
 com\example\inscreveai\models\Cap.class
 com\example\inscreveai\services\IPanelistService.class
+com\example\inscreveai\mappers\RegistrationMapper.class
+com\example\inscreveai\controller\RegistrationController.class
 com\example\inscreveai\controller\UserController.class
 com\example\inscreveai\controller\ProgrammingController.class
 com\example\inscreveai\models\dto\PersonDTO.class
@@ -66,9 +71,11 @@ com\example\inscreveai\config\mapper\EntityMapper.class
 com\example\inscreveai\services\implementation\EventService.class
 com\example\inscreveai\InscreveaiApplication.class
 com\example\inscreveai\services\implementation\LocationService.class
+com\example\inscreveai\models\dto\RegistrationDTO.class
 com\example\inscreveai\models\Panelist.class
 com\example\inscreveai\controller\PersonController.class
 com\example\inscreveai\repository\CancellationPolicyRepository.class
+com\example\inscreveai\services\implementation\RegistrationService.class
 com\example\inscreveai\services\IPersonService.class
 com\example\inscreveai\controller\EventPageController.class
 com\example\inscreveai\controller\AboutController.class

@@ -11,6 +11,7 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\Loc
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\PanelistController.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\PersonController.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\ProgrammingController.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\RegistrationController.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\UserController.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\WithdrawalAccountController.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\exceptions\InscreveAiNotFoundException.java
@@ -24,6 +25,7 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\Locati
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\PanelistMapper.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\PersonMapper.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\ProgrammingMapper.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\RegistrationMapper.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\UserMapper.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\WithdrawalAccountMapper.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\About.java
@@ -38,6 +40,7 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\Loc
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\PanelistDTO.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\PersonDTO.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\ProgrammingDTO.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\RegistrationDTO.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\UserDTO.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\WithdrawalAccountDTO.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\enums\TypeOfPersonEnum.java
@@ -49,6 +52,7 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\Locatio
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\Panelist.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\Person.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\Programming.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\Registration.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\User.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\WithdrawalAccount.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\AboutRepository.java
@@ -60,6 +64,7 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\Loc
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\PanelistRepository.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\PersonRepository.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\ProgrammingRepository.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\RegistrationRepository.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\UserRepository.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\WithdrawalAccountRepository.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\GenericService.java
@@ -78,10 +83,12 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\imple
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\PanelistService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\PersonService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\ProgrammingService.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\RegistrationService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\UserService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\WithdrawalAccountServiceService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\IPanelistService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\IPersonService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\IProgrammingService.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\IRegistrationService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\IUserService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\IWithdrawalAccountService.java

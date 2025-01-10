@@ -1,9 +1,7 @@
 package com.example.inscreveai.services;
 
-import com.example.inscreveai.models.User;
 import com.example.inscreveai.models.dto.UserDTO;
 import org.springframework.data.domain.Page;
-import org.springframework.stereotype.Service;
 
 import java.awt.print.Pageable;
 import java.util.List;
