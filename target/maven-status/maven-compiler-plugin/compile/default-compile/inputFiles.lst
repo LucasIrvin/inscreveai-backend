@@ -3,6 +3,7 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\config\cors\Co
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\config\mapper\EntityMapper.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\config\mapper\ModelMapperConfig.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\AboutController.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\AnswersController.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\CancellationPolicyController.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\CapController.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\EventController.java
@@ -17,6 +18,7 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\Wit
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\exceptions\InscreveAiNotFoundException.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\InscreveaiApplication.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\AboutMapper.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\AnswersMapper.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\CancellationPolicyMapper.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\CapMapper.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\EventMapper.java
@@ -29,9 +31,11 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\Regist
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\UserMapper.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\WithdrawalAccountMapper.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\About.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\Answers.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\CancellationPolicy.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\Cap.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\AboutDTO.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\AnswersDTO.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\CancellationPolicyDTO.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\CapDTO.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\EventDTO.java
@@ -56,6 +60,7 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\Registr
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\User.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\WithdrawalAccount.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\AboutRepository.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\AnswersRepository.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\CancellationPolicyRepository.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\CapRepository.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\EventPageRepository.java
@@ -69,12 +74,14 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\Use
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\WithdrawalAccountRepository.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\GenericService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\IAboutService.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\IAnswersService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\ICancellationPolicyService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\ICapService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\IEventPageService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\IEventService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\ILocationService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\AboutService.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\AnswersService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\CancellationPolicyService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\CapService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\EventPageService.java
