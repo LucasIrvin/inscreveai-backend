@@ -2,7 +2,9 @@ package com.example.inscreveai.controller;
 
 import com.example.inscreveai.anotations.CommonApiResponses;
 import com.example.inscreveai.models.dto.AnswersDTO;
+import com.example.inscreveai.models.dto.MealDTO;
 import com.example.inscreveai.services.IAnswersService;
+import com.example.inscreveai.services.IMealService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -17,50 +19,49 @@ import java.util.List;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/answers")
+@RequestMapping("/meal")
 @CrossOrigin(origins = "*")
-public class AnswersController {
+public class MealController {
 
     @Autowired
-    private IAnswersService answersService;
+    private IMealService mealService;
 
     @GetMapping("/page")
     @CommonApiResponses
-    public ResponseEntity<Page<AnswersDTO>> findAllPages(@PageableDefault(page = 0, size = 10, sort = "userId", direction = Sort.Direction.ASC) Pageable pageable) {
-        return ResponseEntity.ok(answersService.findAllPageAsDTO(pageable));
+    public ResponseEntity<Page<MealDTO>> findAllPages(@PageableDefault(page = 0, size = 10, sort = "userId", direction = Sort.Direction.ASC) Pageable pageable) {
+        return ResponseEntity.ok(mealService.findAllPageAsDTO(pageable));
     }
 
     @GetMapping
     @CommonApiResponses
-    public ResponseEntity<List<AnswersDTO>> findAll() {
-        return ResponseEntity.ok(answersService.findAllDTO());
+    public ResponseEntity<List<MealDTO>> findAll() {
+        return ResponseEntity.ok(mealService.findAllDTO());
     }
 
     @GetMapping("/{id}")
     @CommonApiResponses
-    public ResponseEntity<AnswersDTO> findById(@PathVariable Long id) {
-        return ResponseEntity.ok(answersService.findByIdDTO(id));
+    public ResponseEntity<MealDTO> findById(@PathVariable Long id) {
+        return ResponseEntity.ok(mealService.findByIdDTO(id));
     }
 
     @PostMapping
     @CommonApiResponses
-    public ResponseEntity<AnswersDTO> save(@RequestBody AnswersDTO answersDTO) {
-        return ResponseEntity.status(HttpStatus.CREATED).body(answersService.saveDTO(answersDTO));
+    public ResponseEntity<MealDTO> save(@RequestBody MealDTO mealDTO) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(mealService.saveDTO(mealDTO));
     }
 
     @PutMapping("/{id}")
     @CommonApiResponses
-    public ResponseEntity<AnswersDTO> update(@PathVariable Long id,
-                                         @RequestBody AnswersDTO answersAtualizado) {
-        return ResponseEntity.ok(answersService.updateDTO(id, answersAtualizado));
+    public ResponseEntity<MealDTO> update(@PathVariable Long id,
+                                             @RequestBody MealDTO mealAtualizado) {
+        return ResponseEntity.ok(mealService.updateDTO(id, mealAtualizado));
     }
 
     @DeleteMapping("/{id}")
     @CommonApiResponses
     public ResponseEntity<Void> delete(@PathVariable Long id) {
-        answersService.delete(id);
+        mealService.delete(id);
         return ResponseEntity.noContent().build();
     }
-
 
 }

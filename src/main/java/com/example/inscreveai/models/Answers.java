@@ -1,14 +1,10 @@
 package com.example.inscreveai.models;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.List;
-import java.util.Map;
 
 @Data
 @Entity
@@ -20,7 +16,7 @@ public class Answers {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "PERSON_ID")
+    @Column(name = "ANSWERS_ID")
     private Long answersId;
 
     @OneToOne
@@ -30,6 +26,7 @@ public class Answers {
     @OneToOne
     @JoinColumn(name = "REGISTRATION_ID", nullable = false)
     private Registration registrationId;
+
 
 
 }

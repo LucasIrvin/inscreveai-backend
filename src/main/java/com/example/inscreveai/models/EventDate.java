@@ -6,40 +6,33 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
+import java.util.Date;
 
 @Data
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "TB_EVENT_PAGE")
+@Table(name = "TB_EVENT_DATE")
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class EventPage {
+public class EventDate {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "EVENT_PAGE_ID")
-    private Long eventPageId;
+    @Column(name = "EVENT_DATE_ID")
+    private Long eventDateId;
 
-    @OneToOne
-    @JoinColumn(name = "EVENT_ID", nullable = false)
-    private Event eventId;
+    @Column(name = "DATE", nullable = false)
+    @Temporal(TemporalType.DATE)
+    private Date date;
 
-    @OneToOne
-    private Cap cap;
-
-    @OneToOne
-    private About about;
-
-    @OneToOne
-    private Location location;
+    /*@OneToOne
+    @JoinColumn(name = "CONFIG_MEALS_ID", nullable = false)
+    private ConfigMeals configMealsId;*/
 
     /*@OneToMany(mappedBy = "EventPage")
-    private List<Panelist> panelist;*/
+    private List<Meal> mealList;*/
 
     /*@OneToMany(mappedBy = "EventPage")
-    private List<Programming> programingList;*/
-
-
+    private List<Programming> programmingList;*/
 
 }
