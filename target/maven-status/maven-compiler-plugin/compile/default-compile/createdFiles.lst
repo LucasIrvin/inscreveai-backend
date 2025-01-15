@@ -29,6 +29,7 @@ com\example\inscreveai\controller\MealPackageController.class
 com\example\inscreveai\mappers\WithdrawalAccountMapper.class
 com\example\inscreveai\services\implementation\UserService.class
 com\example\inscreveai\config\cors\CorsConfiguration.class
+com\example\inscreveai\repository\AccommodationRepository.class
 com\example\inscreveai\models\User.class
 com\example\inscreveai\mappers\MealPackageMapper.class
 com\example\inscreveai\mappers\AboutMapper.class
@@ -39,6 +40,7 @@ com\example\inscreveai\controller\LocationController.class
 com\example\inscreveai\mappers\EventDateMapper.class
 com\example\inscreveai\models\dto\AboutDTO.class
 com\example\inscreveai\services\IMealPackageService.class
+com\example\inscreveai\services\IAccommodationService.class
 com\example\inscreveai\mappers\PanelistMapper.class
 com\example\inscreveai\models\Batch.class
 com\example\inscreveai\repository\RegistrationRepository.class
@@ -70,6 +72,7 @@ com\example\inscreveai\controller\EventPageController.class
 com\example\inscreveai\models\dto\AnswersDTO$AnswersDTOBuilder.class
 com\example\inscreveai\controller\PanelistController.class
 com\example\inscreveai\services\implementation\AboutService.class
+com\example\inscreveai\models\Accommodation.class
 com\example\inscreveai\mappers\MealMapper.class
 com\example\inscreveai\mappers\UserMapper.class
 com\example\inscreveai\services\implementation\WithdrawalAccountServiceService.class
@@ -80,6 +83,7 @@ com\example\inscreveai\services\implementation\CategoryService.class
 com\example\inscreveai\services\implementation\CouponService.class
 com\example\inscreveai\controller\EventDateController.class
 com\example\inscreveai\services\IBatchService.class
+com\example\inscreveai\controller\AccommodationController.class
 com\example\inscreveai\services\implementation\EventDateService.class
 com\example\inscreveai\services\IUserService.class
 com\example\inscreveai\mappers\ProgrammingMapper.class
@@ -87,6 +91,7 @@ com\example\inscreveai\mappers\CategoryMapper.class
 com\example\inscreveai\mappers\BatchMapper.class
 com\example\inscreveai\models\dto\CancellationPolicyDTO.class
 com\example\inscreveai\models\Person.class
+com\example\inscreveai\services\implementation\AccommodationService.class
 com\example\inscreveai\services\IProgrammingService.class
 com\example\inscreveai\mappers\CouponMapper.class
 com\example\inscreveai\services\IAboutService.class
@@ -132,6 +137,7 @@ com\example\inscreveai\models\dto\MealPackageDTO.class
 com\example\inscreveai\services\implementation\AnswersService.class
 com\example\inscreveai\controller\MealController.class
 com\example\inscreveai\repository\PanelistRepository.class
+com\example\inscreveai\mappers\AccommodationMapper.class
 com\example\inscreveai\repository\ConfigMealsRepository.class
 com\example\inscreveai\services\IPanelistService.class
 com\example\inscreveai\mappers\RegistrationMapper.class
@@ -149,6 +155,7 @@ com\example\inscreveai\repository\MealRepository.class
 com\example\inscreveai\services\implementation\RegistrationService.class
 com\example\inscreveai\models\Coupon.class
 com\example\inscreveai\controller\AboutController.class
+com\example\inscreveai\models\dto\AccommodationDTO.class
 com\example\inscreveai\models\dto\UserDTO.class
 com\example\inscreveai\services\implementation\EventPageService.class
 com\example\inscreveai\services\implementation\ProgrammingService.class

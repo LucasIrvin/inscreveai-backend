@@ -23,8 +23,8 @@ public class AboutMapper implements EntityMapper<AboutDTO, About> {
     }
 
     @Override
-    public About toEntity(AboutDTO aboutDTODTO) {
-        return mapper.map(aboutDTODTO, About.class);
+    public About toEntity(AboutDTO aboutDTO) {
+        return mapper.map(aboutDTO, About.class);
     }
 
     @Override
