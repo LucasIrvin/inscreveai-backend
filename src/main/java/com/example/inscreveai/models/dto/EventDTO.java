@@ -1,6 +1,5 @@
 package com.example.inscreveai.models.dto;
 
-import com.example.inscreveai.models.User;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 

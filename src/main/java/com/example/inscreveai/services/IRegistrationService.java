@@ -1,6 +1,5 @@
 package com.example.inscreveai.services;
 
-import com.example.inscreveai.models.dto.ProgrammingDTO;
 import com.example.inscreveai.models.dto.RegistrationDTO;
 import org.springframework.data.domain.Page;
 

@@ -1,9 +1,7 @@
 package com.example.inscreveai.controller;
 
 import com.example.inscreveai.anotations.CommonApiResponses;
-import com.example.inscreveai.models.dto.EventDTO;
 import com.example.inscreveai.models.dto.ProgrammingDTO;
-import com.example.inscreveai.services.IEventService;
 import com.example.inscreveai.services.IProgrammingService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

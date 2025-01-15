@@ -2,9 +2,7 @@ package com.example.inscreveai.mappers;
 
 import com.example.inscreveai.config.mapper.EntityMapper;
 import com.example.inscreveai.models.User;
-import com.example.inscreveai.models.WithdrawalAccount;
 import com.example.inscreveai.models.dto.UserDTO;
-import com.example.inscreveai.models.dto.WithdrawalAccountDTO;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;

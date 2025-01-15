@@ -1,10 +1,8 @@
 package com.example.inscreveai.services.implementation;
 
-import com.example.inscreveai.mappers.EventMapper;
 import com.example.inscreveai.mappers.PanelistMapper;
 import com.example.inscreveai.models.Panelist;
 import com.example.inscreveai.models.dto.PanelistDTO;
-import com.example.inscreveai.repository.EventRepository;
 import com.example.inscreveai.repository.PanelistRepository;
 import com.example.inscreveai.services.GenericService;
 import com.example.inscreveai.services.IPanelistService;

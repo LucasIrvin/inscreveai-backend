@@ -1,11 +1,14 @@
 package com.example.inscreveai.models.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import lombok.Data;
+import lombok.*;
 
 import java.util.List;
 
 @Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class AnswersDTO {
 
@@ -15,5 +18,6 @@ public class AnswersDTO {
 
     private Long registrationId;
 
+    private String answers;
 
 }

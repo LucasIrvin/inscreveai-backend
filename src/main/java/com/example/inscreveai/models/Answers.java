@@ -27,6 +27,7 @@ public class Answers {
     @JoinColumn(name = "REGISTRATION_ID", nullable = false)
     private Registration registrationId;
 
-
+    @JoinColumn(name = "ANSWERS", nullable = false)
+    private String answers;
 
 }

@@ -67,6 +67,7 @@ com\example\inscreveai\controller\PersonController.class
 com\example\inscreveai\repository\CancellationPolicyRepository.class
 com\example\inscreveai\services\IPersonService.class
 com\example\inscreveai\controller\EventPageController.class
+com\example\inscreveai\models\dto\AnswersDTO$AnswersDTOBuilder.class
 com\example\inscreveai\controller\PanelistController.class
 com\example\inscreveai\services\implementation\AboutService.class
 com\example\inscreveai\mappers\MealMapper.class

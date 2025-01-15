@@ -1,10 +1,8 @@
 package com.example.inscreveai.controller;
 
 import com.example.inscreveai.anotations.CommonApiResponses;
-import com.example.inscreveai.models.dto.EventDTO;
 import com.example.inscreveai.models.dto.EventPageDTO;
 import com.example.inscreveai.services.IEventPageService;
-import com.example.inscreveai.services.IEventService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

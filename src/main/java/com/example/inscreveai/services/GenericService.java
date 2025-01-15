@@ -2,8 +2,6 @@ package com.example.inscreveai.services;
 
 import com.example.inscreveai.config.mapper.EntityMapper;
 import com.example.inscreveai.exceptions.InscreveAiNotFoundException;
-import com.example.inscreveai.mappers.UserMapper;
-import com.example.inscreveai.models.Person;
 import jakarta.transaction.Transactional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

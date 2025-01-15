@@ -1,9 +1,7 @@
 package com.example.inscreveai.mappers;
 
 import com.example.inscreveai.config.mapper.EntityMapper;
-import com.example.inscreveai.models.CancellationPolicy;
 import com.example.inscreveai.models.Location;
-import com.example.inscreveai.models.dto.CancellationPolicyDTO;
 import com.example.inscreveai.models.dto.LocationDTO;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

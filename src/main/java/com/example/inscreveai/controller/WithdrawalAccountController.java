@@ -1,7 +1,6 @@
 package com.example.inscreveai.controller;
 
 import com.example.inscreveai.anotations.CommonApiResponses;
-import com.example.inscreveai.models.dto.UserDTO;
 import com.example.inscreveai.models.dto.WithdrawalAccountDTO;
 import com.example.inscreveai.services.IWithdrawalAccountService;
 import lombok.RequiredArgsConstructor;

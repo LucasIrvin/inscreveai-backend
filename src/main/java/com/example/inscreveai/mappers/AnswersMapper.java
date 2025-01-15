@@ -1,9 +1,7 @@
 package com.example.inscreveai.mappers;
 
 import com.example.inscreveai.config.mapper.EntityMapper;
-import com.example.inscreveai.models.About;
 import com.example.inscreveai.models.Answers;
-import com.example.inscreveai.models.dto.AboutDTO;
 import com.example.inscreveai.models.dto.AnswersDTO;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
