@@ -13,22 +13,21 @@ import java.util.List;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "TB_FORM")
+@Table(name = "TB_PAYMENT")
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class Form {
+public class Payment {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "FORM_ID")
-    private Long formId;
+    @Column(name = "PAYMENT_ID")
+    private Long paymentId;
 
-    @Column(name = "FORM", nullable = false)
+    @OneToOne
+    @JoinColumn(name = "EVENT_ID", nullable = false)
+    private Event eventId;
+
+    @Column(name = "PAYMENT_LIST", nullable = false)
     @NotNull
-    private List<String> form;
-
-    @Lob
-    @Column(columnDefinition = "TEXT")
-    private String html;
-
+    private List<String> paymentList;
 
 }

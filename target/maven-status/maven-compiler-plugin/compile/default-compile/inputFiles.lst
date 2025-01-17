@@ -20,6 +20,7 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\Loc
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\MealController.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\MealPackageController.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\PanelistController.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\PaymentController.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\PersonController.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\ProgrammingController.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\controller\RegistrationController.java
@@ -45,6 +46,7 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\Locati
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\MealMapper.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\MealPackageMapper.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\PanelistMapper.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\PaymentMapper.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\PersonMapper.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\ProgrammingMapper.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\mappers\RegistrationMapper.java
@@ -78,6 +80,7 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\Loc
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\MealDTO.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\MealPackageDTO.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\PanelistDTO.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\PaymentDTO.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\PersonDTO.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\ProgrammingDTO.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\RegistrationDTO.java
@@ -94,6 +97,7 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\Locatio
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\Meal.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\MealPackage.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\Panelist.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\Payment.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\Person.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\Programming.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\Registration.java
@@ -117,6 +121,7 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\Loc
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\MealPackageRepository.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\MealRepository.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\PanelistRepository.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\PaymentRepository.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\PersonRepository.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\ProgrammingRepository.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\repository\RegistrationRepository.java
@@ -158,12 +163,14 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\imple
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\MealPackageService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\MealService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\PanelistService.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\PaymentService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\PersonService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\ProgrammingService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\RegistrationService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\UserService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\implementation\WithdrawalAccountServiceService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\IPanelistService.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\IPaymentService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\IPersonService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\IProgrammingService.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\services\IRegistrationService.java
