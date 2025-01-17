@@ -1,10 +1,17 @@
 package com.example.inscreveai.models;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.util.JSONPObject;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.Type;
+
+import javax.validation.constraints.NotNull;
+import java.util.List;
 
 @Data
 @Entity
@@ -28,6 +35,10 @@ public class Answers {
     private Registration registrationId;
 
     @JoinColumn(name = "ANSWERS", nullable = false)
-    private String answers;
+    @NotNull
+    private List<String> answers;
+
+
+
 
 }

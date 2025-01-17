@@ -18,6 +18,6 @@ public class AnswersDTO {
 
     private Long registrationId;
 
-    private String answers;
+    private List<String> answers;
 
 }
