@@ -2,6 +2,7 @@ com\example\inscreveai\models\EmailTrash.class
 com\example\inscreveai\models\dto\ProgrammingDTO.class
 com\example\inscreveai\controller\CapController.class
 com\example\inscreveai\models\dto\WithdrawalAccountDTO.class
+com\example\inscreveai\repository\TransactionRepository.class
 com\example\inscreveai\models\EventDate.class
 com\example\inscreveai\controller\ConfigMealsController.class
 com\example\inscreveai\services\ILocationService.class
@@ -16,6 +17,7 @@ com\example\inscreveai\mappers\WithdrawalAccountMapper.class
 com\example\inscreveai\services\implementation\UserService.class
 com\example\inscreveai\config\cors\CorsConfiguration.class
 com\example\inscreveai\repository\AccommodationRepository.class
+com\example\inscreveai\controller\TransactionController.class
 com\example\inscreveai\mappers\MealPackageMapper.class
 com\example\inscreveai\mappers\EventMapper.class
 com\example\inscreveai\services\ICategoryService.class
@@ -44,6 +46,7 @@ com\example\inscreveai\repository\PaymentRepository.class
 com\example\inscreveai\services\implementation\CouponService.class
 com\example\inscreveai\services\IBatchService.class
 com\example\inscreveai\services\implementation\EventDateService.class
+com\example\inscreveai\services\ITransactionService.class
 com\example\inscreveai\services\IUserService.class
 com\example\inscreveai\mappers\ProgrammingMapper.class
 com\example\inscreveai\controller\OutboxController.class
@@ -51,9 +54,11 @@ com\example\inscreveai\mappers\CategoryMapper.class
 com\example\inscreveai\services\implementation\AccommodationService.class
 com\example\inscreveai\services\IProgrammingService.class
 com\example\inscreveai\services\IAboutService.class
+com\example\inscreveai\services\implementation\TransactionService.class
 com\example\inscreveai\mappers\LocationMapper.class
 com\example\inscreveai\models\WithdrawalAccount.class
 com\example\inscreveai\models\dto\CapDTO.class
+com\example\inscreveai\models\Transaction.class
 com\example\inscreveai\mappers\CancellationPolicyMapper.class
 com\example\inscreveai\mappers\InboxMapper.class
 com\example\inscreveai\mappers\PersonMapper.class
@@ -99,6 +104,7 @@ com\example\inscreveai\models\dto\FormDTO.class
 com\example\inscreveai\models\Inbox.class
 com\example\inscreveai\services\implementation\ProgrammingService.class
 com\example\inscreveai\models\dto\PanelistDTO.class
+com\example\inscreveai\models\enums\StatusEnum.class
 com\example\inscreveai\repository\EventPageRepository.class
 com\example\inscreveai\controller\BatchController.class
 com\example\inscreveai\models\EventPage.class
@@ -116,6 +122,8 @@ com\example\inscreveai\repository\EmailTrashRepository.class
 com\example\inscreveai\models\Category.class
 com\example\inscreveai\models\dto\PaymentDTO.class
 com\example\inscreveai\controller\MealPackageController.class
+com\example\inscreveai\mappers\TransactionMapper.class
+com\example\inscreveai\models\dto\TransactionDTO.class
 com\example\inscreveai\services\IFormService.class
 com\example\inscreveai\models\User.class
 com\example\inscreveai\mappers\AboutMapper.class

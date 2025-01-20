@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.inscreveai.InscreveaiApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.146 s -- in com.example.inscreveai.InscreveaiApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.95 s -- in com.example.inscreveai.InscreveaiApplicationTests
