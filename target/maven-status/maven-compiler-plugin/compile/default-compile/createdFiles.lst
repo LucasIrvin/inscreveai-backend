@@ -3,8 +3,10 @@ com\example\inscreveai\models\dto\ProgrammingDTO.class
 com\example\inscreveai\controller\CapController.class
 com\example\inscreveai\models\dto\WithdrawalAccountDTO.class
 com\example\inscreveai\repository\TransactionRepository.class
+com\example\inscreveai\models\enums\MiddleOfTheMovementEnum.class
 com\example\inscreveai\models\EventDate.class
 com\example\inscreveai\controller\ConfigMealsController.class
+com\example\inscreveai\repository\MovementRepository.class
 com\example\inscreveai\services\ILocationService.class
 com\example\inscreveai\services\ICapService.class
 com\example\inscreveai\repository\CouponRepository.class
@@ -30,8 +32,10 @@ com\example\inscreveai\mappers\CapMapper.class
 com\example\inscreveai\models\dto\LocationDTO.class
 com\example\inscreveai\models\Answers.class
 com\example\inscreveai\models\Cap.class
+com\example\inscreveai\models\Movement.class
 com\example\inscreveai\services\implementation\EventService.class
 com\example\inscreveai\repository\EventDateRepository.class
+com\example\inscreveai\services\IMovementService.class
 com\example\inscreveai\controller\CouponController.class
 com\example\inscreveai\models\MealPackage.class
 com\example\inscreveai\services\IEventDateService.class
@@ -66,11 +70,13 @@ com\example\inscreveai\services\IConfigMealsService.class
 com\example\inscreveai\models\Registration.class
 com\example\inscreveai\services\implementation\PersonService.class
 com\example\inscreveai\mappers\AnswersMapper.class
+com\example\inscreveai\mappers\MovementMapper.class
 com\example\inscreveai\repository\PersonRepository.class
 com\example\inscreveai\models\About.class
 com\example\inscreveai\repository\DiscountRepository.class
 com\example\inscreveai\anotations\CommonApiResponses.class
 com\example\inscreveai\models\dto\EmailTrashDTO.class
+com\example\inscreveai\models\enums\TypeOfMovementEnum.class
 com\example\inscreveai\mappers\FormMapper.class
 com\example\inscreveai\repository\MealPackageRepository.class
 com\example\inscreveai\models\Payment.class
@@ -117,6 +123,7 @@ com\example\inscreveai\services\implementation\PanelistService.class
 com\example\inscreveai\services\implementation\CapService.class
 com\example\inscreveai\models\dto\DiscountDTO.class
 com\example\inscreveai\models\dto\BatchDTO.class
+com\example\inscreveai\controller\MovementController.class
 com\example\inscreveai\controller\WithdrawalAccountController.class
 com\example\inscreveai\repository\EmailTrashRepository.class
 com\example\inscreveai\models\Category.class
@@ -143,6 +150,7 @@ com\example\inscreveai\models\Discount.class
 com\example\inscreveai\services\GenericService.class
 com\example\inscreveai\InscreveaiApplication.class
 com\example\inscreveai\models\dto\CouponDTO.class
+com\example\inscreveai\models\dto\MovementDTO.class
 com\example\inscreveai\services\implementation\MealService.class
 com\example\inscreveai\models\dto\RegistrationDTO.class
 com\example\inscreveai\services\ICouponService.class
@@ -155,6 +163,7 @@ com\example\inscreveai\services\implementation\AboutService.class
 com\example\inscreveai\mappers\MealMapper.class
 com\example\inscreveai\services\implementation\WithdrawalAccountServiceService.class
 com\example\inscreveai\models\dto\InboxDTO.class
+com\example\inscreveai\models\enums\ReferentEnum.class
 com\example\inscreveai\exceptions\InscreveAiNotFoundException.class
 com\example\inscreveai\models\dto\EventDTO.class
 com\example\inscreveai\services\implementation\CategoryService.class
@@ -171,6 +180,7 @@ com\example\inscreveai\mappers\ConfigMealsMapper.class
 com\example\inscreveai\services\implementation\BatchService.class
 com\example\inscreveai\mappers\PaymentMapper.class
 com\example\inscreveai\mappers\EventPageMapper.class
+com\example\inscreveai\services\implementation\MovementService.class
 com\example\inscreveai\models\Location.class
 com\example\inscreveai\services\implementation\MealPackageService.class
 com\example\inscreveai\repository\ProgrammingRepository.class
@@ -204,5 +214,6 @@ com\example\inscreveai\models\dto\AccommodationDTO.class
 com\example\inscreveai\models\dto\UserDTO.class
 com\example\inscreveai\services\implementation\EventPageService.class
 com\example\inscreveai\models\dto\ConfigMealsDTO.class
+com\example\inscreveai\models\enums\MovementTypeEnum.class
 com\example\inscreveai\mappers\DiscountMapper.class
 com\example\inscreveai\models\dto\MealDTO.class
