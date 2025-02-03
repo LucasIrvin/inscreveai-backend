@@ -40,6 +40,10 @@ public class Transaction {
     @NotNull
     private Date date_of_Creation;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+      @JoinColumn(name = "USER_ID")
+      private User user;
+
     /*@OneToMany(mappedBy = "Transaction")
     private List<Registration> registration;*/
 

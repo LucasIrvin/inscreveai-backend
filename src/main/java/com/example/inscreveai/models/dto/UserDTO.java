@@ -1,6 +1,9 @@
 package com.example.inscreveai.models.dto;
 
 
+import java.util.List;
+
+import com.example.inscreveai.models.Transaction;
 import com.example.inscreveai.models.enums.UserProfileEnum;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
@@ -17,6 +20,7 @@ public class UserDTO {
 
     private UserProfileEnum userProfileEnum;
 
-    private Long personId;  // Representação do ID da pessoa, pois estamos apenas transferindo o ID na DTO.
+    private Long personId; // Representação do ID da pessoa, pois estamos apenas transferindo o ID na DTO.
 
+    private List<Transaction> transactions;
 }

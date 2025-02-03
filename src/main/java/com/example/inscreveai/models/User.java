@@ -2,11 +2,14 @@ package com.example.inscreveai.models;
 
 import com.example.inscreveai.models.enums.UserProfileEnum;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.util.List;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
@@ -42,6 +45,12 @@ public class User {
     @OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
     @JoinColumn(name = "PERSON_ID", nullable = false)
     private Person person;
+
+    @JsonIgnore
+    @JsonInclude(JsonInclude.Include.ALWAYS)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.REMOVE, orphanRemoval = true, fetch = FetchType.LAZY)
+    private List<Transaction> transactions;
+
 
     /*// Relacionamento com a entidade Pessoa (1:1)
     @OneToOne

@@ -134,6 +134,8 @@ C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\Use
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\dto\WithdrawalAccountDTO.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\EmailTrash.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\enums\MiddleOfTheMovementEnum.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\enums\MovementEventEnum.java
+C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\enums\MovementStatusEnum.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\enums\MovementTypeEnum.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\enums\ReferentEnum.java
 C:\github\inscreveai-backend\src\main\java\com\example\inscreveai\models\enums\StatusEnum.java

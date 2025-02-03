@@ -233,6 +233,7 @@ com\example\inscreveai\repository\ProgrammingRepository.class
 com\example\inscreveai\repository\CategoryRepository.class
 com\example\inscreveai\repository\LocationRepository.class
 com\example\inscreveai\services\implementation\ItemService.class
+com\example\inscreveai\models\enums\MovementEventEnum.class
 com\example\inscreveai\services\implementation\EmailTrashService.class
 com\example\inscreveai\services\IWithdrawalAccountService.class
 com\example\inscreveai\controller\InboxController.class
@@ -243,6 +244,7 @@ com\example\inscreveai\mappers\ItemMapper.class
 com\example\inscreveai\models\CouponApplied.class
 com\example\inscreveai\models\dto\CategoryDTO.class
 com\example\inscreveai\repository\AnswersRepository.class
+com\example\inscreveai\models\enums\MovementStatusEnum.class
 com\example\inscreveai\models\enums\TypeOfPersonEnum.class
 com\example\inscreveai\models\enums\UserProfileEnum.class
 com\example\inscreveai\models\dto\OutboxDTO.class
