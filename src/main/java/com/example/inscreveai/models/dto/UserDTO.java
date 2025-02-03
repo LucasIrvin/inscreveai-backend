@@ -17,4 +17,6 @@ public class UserDTO {
 
     private UserProfileEnum userProfileEnum;
 
+    private Long personId;  // Representação do ID da pessoa, pois estamos apenas transferindo o ID na DTO.
+
 }

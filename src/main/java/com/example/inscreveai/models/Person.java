@@ -1,5 +1,6 @@
 package com.example.inscreveai.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Pattern;
@@ -63,9 +64,9 @@ public class Person {
     @Column(name = "NUMBER", nullable = false)
     private String number;
 
-    @OneToOne
-    @JoinColumn(name = "USER_ID", nullable = false)
-    private User userId;
+    @JsonIgnore
+    @OneToOne(mappedBy = "person", fetch = FetchType.LAZY)
+    private User user;
 
 
 

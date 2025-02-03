@@ -1,6 +1,8 @@
 package com.example.inscreveai.models;
 
 import com.example.inscreveai.models.enums.UserProfileEnum;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -35,6 +37,11 @@ public class User {
     @Column(name = "USER_PROFILE_ENUM", nullable = false)
     @NotNull
     private UserProfileEnum userProfileEnum;
+
+    @JsonIgnore
+    @OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
+    @JoinColumn(name = "PERSON_ID", nullable = false)
+    private Person person;
 
     /*// Relacionamento com a entidade Pessoa (1:1)
     @OneToOne
