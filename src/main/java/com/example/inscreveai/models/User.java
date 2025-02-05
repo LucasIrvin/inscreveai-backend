@@ -51,6 +51,10 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.REMOVE, orphanRemoval = true, fetch = FetchType.LAZY)
     private List<Transaction> transactions;
 
+    @JsonIgnore
+    @JsonInclude(JsonInclude.Include.ALWAYS)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.REMOVE, orphanRemoval = true, fetch = FetchType.LAZY)
+    private List<Event> events;
 
     /*// Relacionamento com a entidade Pessoa (1:1)
     @OneToOne

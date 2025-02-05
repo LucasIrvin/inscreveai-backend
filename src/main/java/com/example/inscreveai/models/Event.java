@@ -81,8 +81,8 @@ public class Event {
     @NotNull
     private Double availableBalance;
 
-    @OneToOne
-    @JoinColumn(name = "USER_ID", nullable = false)
+    @ManyToOne
+    @JoinColumn(name = "LOGIN_ID", nullable = false)
     private User userId;
 
     @OneToOne
@@ -90,6 +90,10 @@ public class Event {
 
     @OneToOne
     private EventPage eventPage;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "USER_ID")
+    private User user;
 
     /*@OneToOne
     private Form form;*/
