@@ -41,5 +41,5 @@ public class EventDTO {
 
     private Long userId;
 
-
+    private Long eventPageId;
 }

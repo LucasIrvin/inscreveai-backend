@@ -1,19 +1,17 @@
 package com.example.inscreveai.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @Data
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "TB_EVENT_PAGE")
-@JsonInclude(JsonInclude.Include.NON_NULL)
 public class EventPage {
 
     @Id
@@ -21,8 +19,9 @@ public class EventPage {
     @Column(name = "EVENT_PAGE_ID")
     private Long eventPageId;
 
-    @OneToOne
-    @JoinColumn(name = "EVENT_ID", nullable = false)
+    @JsonIgnore
+    @JsonInclude(JsonInclude.Include.ALWAYS)
+    @OneToOne(mappedBy = "eventPageId", fetch = FetchType.LAZY)
     private Event eventId;
 
     @OneToOne

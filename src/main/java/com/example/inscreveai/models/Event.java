@@ -88,8 +88,9 @@ public class Event {
     @OneToOne
     private CancellationPolicy cancellationPolicy;
 
-    @OneToOne
-    private EventPage eventPage;
+    @OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
+    @JoinColumn(name = "EVENT_PAGE_ID", nullable = false)
+    private EventPage eventPageId;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "USER_ID")
